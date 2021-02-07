@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quest_mk2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Квест для пожилых людей"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Quest_mk2">
+        <activity android:name=".bank.bank_Result"></activity>
+        <activity android:name=".bank.bank_bad" />
+        <activity android:name=".bank.bank_good" />
+        <activity android:name=".bank.bank_question1" />
+        <activity android:name=".product_buy.product_Result" />
+        <activity android:name=".product_buy.product_question_good" />
+        <activity android:name=".product_buy.product_question_bad" />
+        <activity android:name=".product_buy.product_question1" />
+        <activity android:name=".Theory" />
+        <activity android:name=".Settings" />
+        <activity android:name=".QuestMenu" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
