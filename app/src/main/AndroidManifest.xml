@@ -4,9 +4,10 @@
 
     <application
         android:allowBackup="true"
+        android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher"
-        android:label="Квест для пожилых людей"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:largeHeap="true"
         android:supportsRtl="true"
         android:theme="@style/Theme.Quest_mk2">
         <activity android:name=".bank.bank_Result"></activity>
